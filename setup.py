@@ -2,9 +2,9 @@
 
 from distutils.core import setup, Extension
 
-setup(name='pyframe', 
+setup(name='pydrawer', 
       version='0.0.1', 
-      description='A Game Framework',
+      description='A Rendering Library',
       author='Casey Carrington',
       author_email='wccarrington@gmail.com',
-      ext_modules=[Extension('pyframe', ['pyframe.c'])])
+      ext_modules=[Extension('pydrawer', ['pydrawer.c'])])
